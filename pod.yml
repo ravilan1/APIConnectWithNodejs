@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: metlife
+  labels:
+    name: metlife
+spec:
+  containers:
+  - name: redis-server
+    image: redis
+  - name: node
+    image: 
